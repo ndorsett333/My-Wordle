@@ -1,11 +1,14 @@
 {
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "mobx": "^6.6.0",
     "mobx-react-lite": "^3.4.0",
     "next": "latest",
@@ -20,5 +23,6 @@
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.2",
     "typescript": "4.7.2"
-  }
+  },
+  "homepage": "https://ndorsett333.github.io/My-Wordle"
 }
