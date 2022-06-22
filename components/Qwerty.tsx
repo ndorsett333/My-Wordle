@@ -1,6 +1,7 @@
 import {observer} from 'mobx-react-lite'
 
-export default observer(function Querty({store}){
+// export default observer(function Querty({store}){
+    export default function Querty({store}){
 
 
     const qwerty = ['qwertyuiop', 'asdfghjkl', 'zxcvbnm']
@@ -27,4 +28,4 @@ export default observer(function Querty({store}){
         </div>
     )
 
-})
+}
